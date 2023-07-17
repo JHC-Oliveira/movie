@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kanit&display=swap");
+
+:root {
+    --font-menu: 'Comfortaa', cursive;
+    --font-primary: black;
+    --font-secundary: #EFE1D1;
+    --back-color: #CD1818;
+    --hover-color: #B70404;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-image: url(./assets/back.jpg);
+}
+
+.had {
+    background-color: var(--back-color);
+    padding: 1%;
+}
+
+.had__position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.had__position__right {
+    display: flex;
+    justify-items: flex-end;
+    gap: 15px;
+}
+
+.had__button {
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 3px;
+    text-decoration: none;
+    font-family: var(--font-menu);
+    font-size: 25px;
+    color: var(--font-primary);
+    font-weight: 600;
+}
+
+.had__button:hover {
+    background-color: var(--hover-color);
+}
+
+.had__button__right {
+    text-align: center;
+    border: 2px solid;
+    padding: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: var(--font-menu);
+    font-size: 18px;
+    color: var(--font-primary);
+}
+
+.had__button__right:hover {
+    background-color: var(--hover-color);
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.photo__collum__first {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 5%;
+}
+
+.photo__collum__second {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 5%;
+}
+
+.photo__harry {
+    width: 144px;
+    height: 210px;
+    border-radius: 6%;
+}
+
+.photo__harry:hover {
+    transform: scale(1.3);
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    background-color: var(--back-color);
+    padding: 0.5%;
+    font-family: var(--font-menu);
+    font-weight: 600;
+}
